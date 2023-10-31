@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T11:30:52.028Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="PxjxeB7vDxf8qCO7K348" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T15:04:20.792Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="yHBpUuYT3MvFOirKAmIN" version="22.0.8" type="github">
   <diagram name="Page-1" id="sTu0KwII7Odr_S1mqN8S">
-    <mxGraphModel dx="1114" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="785" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,20 +81,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m8FT9cvH0laz2Xrom1V6-49" value="CRDs&lt;br&gt;CSV (quay.io/openshift/origin-*:&lt;b&gt;4.15&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;perimeterSpacing=3;spacing=6;" parent="m8FT9cvH0laz2Xrom1V6-1" vertex="1">
-          <mxGeometry x="40" y="65" width="230" height="60" as="geometry" />
+        <mxCell id="m8FT9cvH0laz2Xrom1V6-49" value="CRDs.yaml&lt;br&gt;CSV.yaml (quay.io/openshift/origin-*:&lt;b&gt;4.15&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;perimeterSpacing=3;spacing=6;" parent="m8FT9cvH0laz2Xrom1V6-1" vertex="1">
+          <mxGeometry x="40" y="65" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m8FT9cvH0laz2Xrom1V6-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="m8FT9cvH0laz2Xrom1V6-1" source="m8FT9cvH0laz2Xrom1V6-51" target="m8FT9cvH0laz2Xrom1V6-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m8FT9cvH0laz2Xrom1V6-51" value="annotations.yaml" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=6;" parent="m8FT9cvH0laz2Xrom1V6-1" vertex="1">
-          <mxGeometry x="40" y="35" width="230" height="30" as="geometry" />
+          <mxGeometry x="40" y="35" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m8FT9cvH0laz2Xrom1V6-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="m8FT9cvH0laz2Xrom1V6-1" source="m8FT9cvH0laz2Xrom1V6-75" target="m8FT9cvH0laz2Xrom1V6-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m8FT9cvH0laz2Xrom1V6-75" value="tests/scorecard/config.yaml" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=6;" parent="m8FT9cvH0laz2Xrom1V6-1" vertex="1">
-          <mxGeometry x="40" y="125" width="230" height="30" as="geometry" />
+          <mxGeometry x="40" y="125" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m8FT9cvH0laz2Xrom1V6-78" value="manifests" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="m8FT9cvH0laz2Xrom1V6-1" vertex="1">
           <mxGeometry x="507" y="275" width="220" height="120" as="geometry" />
@@ -121,8 +121,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m8FT9cvH0laz2Xrom1V6-82" value="image-references (quay.io/openshift/origin-*:&lt;b&gt;4.15&lt;/b&gt;)&lt;br&gt;CRDs&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;CSV (quay.io/openshift/origin-*:&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;4.15&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=6;" parent="m8FT9cvH0laz2Xrom1V6-1" vertex="1">
-          <mxGeometry x="70" y="270" width="280" height="60" as="geometry" />
+        <mxCell id="m8FT9cvH0laz2Xrom1V6-82" value="image-references (quay.io/openshift/origin-*:&lt;b&gt;4.15&lt;/b&gt;)&lt;br&gt;CRDs.yaml&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;CSV.yaml&amp;nbsp;(quay.io/openshift/origin-*:&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;4.15&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=6;" parent="m8FT9cvH0laz2Xrom1V6-1" vertex="1">
+          <mxGeometry x="140" y="223" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m8FT9cvH0laz2Xrom1V6-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="m8FT9cvH0laz2Xrom1V6-1" source="m8FT9cvH0laz2Xrom1V6-82" target="m8FT9cvH0laz2Xrom1V6-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -132,6 +132,20 @@
         </mxCell>
         <mxCell id="m8FT9cvH0laz2Xrom1V6-114" value="replace FULL_VER" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="m8FT9cvH0laz2Xrom1V6-113" vertex="1" connectable="0">
           <mxGeometry x="-0.0737" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htjPnQBtPb3Rh6_5kIO4-12" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Makefile&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="m8FT9cvH0laz2Xrom1V6-1">
+          <mxGeometry x="60" y="385" width="250" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="htjPnQBtPb3Rh6_5kIO4-14" value="&lt;div&gt;bundle&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="htjPnQBtPb3Rh6_5kIO4-12">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="htjPnQBtPb3Rh6_5kIO4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="m8FT9cvH0laz2Xrom1V6-1" source="htjPnQBtPb3Rh6_5kIO4-14" target="m8FT9cvH0laz2Xrom1V6-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="htjPnQBtPb3Rh6_5kIO4-17" value="generates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="htjPnQBtPb3Rh6_5kIO4-16">
+          <mxGeometry x="0.2293" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
